@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Gill Sans MT';
+   text-align: center;
+}
+html{
+    --green: rgb(0, 188, 0);
+    --grey:gray;
+    --lightGray:rgb(232, 232, 232);
+    --white: white;
+}
+h1{
+margin: 30px;
+}
+#email{
+    margin-right: -35px;
+    font-size: smaller;
+}
+#lock{
+    margin-right: -35px;
+    font-size: smaller;
+}
+input{
+    border: none;
+    background-color: var(--lightGray);
+    padding: 12px;
+    margin-bottom: 30px;
+    width: 40%;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+button{
+    border: none;
+    background-color: var(--green);
+    padding: 12px;
+    margin-bottom: 30px;
+    width: 40%;
+    border-radius: 20px;
+    color:var(--white) ;
+    font-weight: bold;
+}
+span{
+    font-size: 12px;
+    font-weight: bold;
+}
+.forget{
+    color: var(--green);
+}
+.p{  margin-top: 50px;
+    color: var(--green);
+    font-size: 12px;
+    font-weight: bold;
+}
+#arrow{
+    font-size: x-small;
+    color: var(--green);
+}
+::placeholder {
+   margin-right: 130px;
+}
+.password::placeholder {
+    margin-right: 130px;
+    font-size: 25px;
+ }
